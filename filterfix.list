@@ -1,0 +1,30 @@
+# 分流规则配置片段包含若干条分流规则；可通过资源引用的方式使用。
+# 片段文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
+# 样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.snippet
+ 
+ 
+ 
+;host, www.example.com, direct
+host, go.onelink.me, direct
+host, esimplus.onelink.me, direct
+host, support.appsflyer.com, direct
+host, bbs.kafan.cn, direct
+host-suffix, ufosdk.baidu.com, direct
+host-suffix, ai.taobao.com, direct
+host-suffix, bard.google.com, 美国策略
+host, e.weather.com.cn, direct
+host, 99.limit.video, reject
+host, 28vju.live, reject
+host, speed.cloudflare.com, 节点选择
+host, azeus1-client-s.gateway.messenger.live.com, OpenAI
+host, shiguangpu.com, 节点选择
+host-suffix, telegramos.org, direct
+host, runtufenxiang.com, 节点选择
+host, app-measurement.com, direct
+host, redirect.viglink.com, 节点选择
+host, v2ex.com, 节点选择
+host, click.redditmail.com, 节点选择
+host, h5.pornfm.org, 节点选择
+host, ilovemylife920, direct
+host, m.mindaveld.com, direct
+;host, nsclick.baidu.com, direct
