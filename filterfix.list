@@ -5,7 +5,6 @@
  
  
 ;host, www.example.com, direct
-host-suffix, gmail.com, direct
 host, go.onelink.me, direct
 host, esimplus.onelink.me, direct
 host, support.appsflyer.com, direct
