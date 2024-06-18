@@ -10,16 +10,13 @@
 # Safari内输入快捷键+空格+搜索关键词快速指定搜索引擎搜索
 # 先进入设置更改Safari默认搜索为DuckDuckGo
 
-#>>>>>>>>>>>>>>>>>>>>>>>翻译
 # trc xxx (Google 译至中)
 ^https:\/\/duckduckgo\.com\/\?q=trc\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
 # tre xxx (Google 译至英)
 ^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
 
-
-#>>>>>>>>>>>>>>>>>>>>>>>搜索
 # bd  xxx (百度搜索)
-^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
 # by  xxx (必应)
 ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ url 302 https://www.bing.com/search?q=$1
 # ddg  xxx (duckduckgo)
