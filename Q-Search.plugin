@@ -19,7 +19,7 @@
 
 #>>>>>>>>>>>>>>>>>>>>>>>搜索
 # bd  xxx (百度搜索)
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
+^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
 # by  xxx (必应)
 ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ 302 https://www.bing.com/search?q=$1
 # ddg  xxx (duckduckgo)
