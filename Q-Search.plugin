@@ -1,8 +1,8 @@
 #!name = 快捷搜索
 #!desc = 为Safari提供快速切换搜索引擎的能力，点击下方链接查看使用说明。
-#!openUrl = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Resource/Markdown/QuickSearch/README.md
+#!openUrl = https://raw.githubusercontent.com/zduxzhu/QuantumultX/main/Q-Search.plugin
 #!author = zduxzhu
-#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!homepage = https://raw.githubusercontent.com/zduxzhu/QuantumultX/
 #!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/Safari.png
 #!date = 2024-06-18 09:00:00
 
