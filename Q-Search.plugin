@@ -13,24 +13,24 @@
 # trc xxx (Google 译至中)
 ^https:\/\/duckduckgo\.com\/\?q=trc\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
 # tre xxx (Google 译至英)
-^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
+^https:\/\/duckduckgo\.com\/\?q=tre\+([^&]+).+ url 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
 
 # bd  xxx (百度搜索)
-^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
+^https:\/\/duckduckgo\.com\/\?q=bd\+([^&]+).+ 302 https://www.baidu.com/s?wd=$1
 # by  xxx (必应)
-^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ url 302 https://www.bing.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=by\+([^&]+).+ url 302 https://www.bing.com/search?q=$1
 # ddg  xxx (duckduckgo)
-^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
+^https:\/\/duckduckgo\.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
 # kk xxx (夸克)
-^https:\/\/duckduckgo.com\/\?q=kk\+([^&]+).+ url 302 https://quark.sm.cn/s?q=$1
+^https:\/\/duckduckgo\.com\/\?q=kk\+([^&]+).+ url 302 https://quark.sm.cn/s?q=$1
 # eco xxx (ecosia)
-^https:\/\/duckduckgo.com\/\?q=eco\+([^&]+).+ url 302 https://www.ecosia.org/search?method=index&q=$1
+^https:\/\/duckduckgo\.com\/\?q=eco\+([^&]+).+ url 302 https://www.ecosia.org/search?method=index&q=$1
 # 360 xxx (360搜索)
-^https:\/\/duckduckgo.com\/\?q=360\+([^&]+).+ url 302 https://m.so.com/s?q=$1
+^https:\/\/duckduckgo\.com\/\?q=360\+([^&]+).+ url 302 https://m.so.com/s?q=$1
 # yh  xxx (油猴搜索)
-^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ url 302 https://greasyfork.org/zh-CN/scripts?q=$1
+^https:\/\/duckduckgo\.com\/\?q=yh\+([^&]+).+ url 302 https://greasyfork.org/zh-CN/scripts?q=$1
 #     xxx （无指令默认为 Google）
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
+^https:\/\/duckduckgo\.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
 
 
 [Mitm]
