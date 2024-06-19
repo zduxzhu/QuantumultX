@@ -15,7 +15,8 @@
 ^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
 # tre xxx (Google 译至英)
 ^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1
-
+# ydcd xxx (有道词典)
+^https:\/\/duckduckgo.com\/\?q=ydcd\+([^&]+).+ 302 https://www.youdao.com/m/result?word=$1&lang=en
 
 #>>>>>>>>>>>>>>>>>>>>>>>搜索
 # bd  xxx (百度搜索)
@@ -34,7 +35,10 @@
 ^https:\/\/duckduckgo.com\/\?q=yh\+([^&]+).+ 302 https://greasyfork.org/zh-CN/scripts?q=$1
 # gh  xxx (github)
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ 302 https://github.com/search?q=$1
-
+# sg xxx (搜狗)
+^https:\/\/duckduckgo.com\/\?q=sg\+([^&]+).+ 302 https://wap.sogou.com/web/searchList.jsp?keyword=$1
+# sm xxx (神马)
+^https:\/\/duckduckgo.com\/\?q=sm\+([^&]+).+ 302 https://m.sm.cn/s?q=$1
 #     xxx （无指令默认为 Google）
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ 302 https://www.google.com/search?q=$1
 
