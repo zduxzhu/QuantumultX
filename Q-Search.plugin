@@ -32,11 +32,11 @@
 # by  xxx (必应)
 ^https:\/\/duckduckgo.com\/\?q=by\+([^&]+).+ 302 https://www.bing.com/search?q=$1
 # ddg  xxx (duckduckgo)
-# ^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ 302 https://duckduckgo.com/?ia=about&q=$1
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ 302 https://duckduckgo.com/?ia=about&q=$1
 # kk xxx (夸克)
 ^https:\/\/duckduckgo.com\/\?q=kk\+([^&]+).+ 302 https://quark.sm.cn/s?q=$1
-# eco xxx (ecosia)
-^https:\/\/duckduckgo.com\/\?q=eco\+([^&]+).+ 302 https://www.ecosia.org/search?method=index&q=$1
+# es xxx (ecosia)
+^https:\/\/duckduckgo.com\/\?q=es\+([^&]+).+ 302 https://www.ecosia.org/search?method=index&q=$1
 # 360 xxx (360搜索)
 ^https:\/\/duckduckgo.com\/\?q=360\+([^&]+).+ 302 https://m.so.com/s?q=$1
 # yh  xxx (油猴搜索)
