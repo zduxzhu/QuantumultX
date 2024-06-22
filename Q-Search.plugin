@@ -10,6 +10,14 @@
 # Safari内输入快捷键+空格+搜索关键词快速指定搜索引擎搜索
 # 先进入设置更改Safari默认搜索为DuckDuckGo
 
+#>>>>>>>>>>>>>>>>>>>>>>>AI
+# youai xxx (youchat)
+^https:\/\/duckduckgo.com\/\?q=youai\+([^&]+).+ 302 https://you.com/search?q=$1&tbm=youchat&chatMode=default
+# chat xxx (ChatGPT)
+^https:\/\/duckduckgo.com\/\?q=chat\+([^&]+).+ 302 https://chatgpt.com/?q=$1
+# chatt xxx (ChatGPT临时会话)
+^https:\/\/duckduckgo.com\/\?q=chatt\+([^&]+).+ 302 https://chatgpt.com/?temporary-chat=true&q=$1
+
 #>>>>>>>>>>>>>>>>>>>>>>>翻译
 # trc xxx (Google 译至中)
 ^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ 302 https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1
