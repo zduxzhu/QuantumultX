@@ -1,8 +1,8 @@
 #!name=阿里网盘签到
 #!desc=阿里网盘定时签到任务。详情见仓库
-#!openUrl=https://github.com/zduxzhu/QuantumultX
+#!openUrl=https://raw.githubusercontent.com/zduxzhu/QuantumultX/main/aDriveCheckIn.plugin
 #!author=zduxzhu
-#!homepage=https://raw.githubusercontent.com/zduxzhu/QuantumultX/main/aDriveCheckIn.plugin
+#!homepage=https://github.com/zduxzhu/QuantumultX
 #!icon=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png
 
 [Script]
