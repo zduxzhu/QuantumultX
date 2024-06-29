@@ -1,0 +1,26 @@
+#!name = 百度地图去广告
+#!desc = 百度地图去广告
+#!openUrl = 
+#!author = zduxzhu
+#!homepage = https://gitlab.com/lodepuly/vpn_tool/-/tree/master/Tool/Loon/Plugin
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/main/App_icon/120px/SevenCat.png
+#!date = 2024-05-13 15:40:31
+
+[Mitm]
+hostname=180.76.76.200, newclient.map.baidu.com, httpdns.baidubce.com, ugc.map.baidu.com
+
+[Rewrite]
+# > 百度地图_首页底部推荐@ddgksf2013
+^https?:\/\/.*map\.baidu\.com\/.*govui\/rich_content reject-200
+# > 百度地图_搜索框下足记Tips@ddgksf2013
+;^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=rgc reject-200
+# > 百度地图_搜索推广@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw reject-200
+# > 百度地图_开屏广告|首页左上角广告@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads reject-200
+# > 百度地图_DNS处理@ddgksf2013
+^https?:\/\/httpdns\.baidubce\.com reject-200
+# > 百度地图_各种商业推广@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing reject-200
+# > 百度地图_我的页面地图动态@ddgksf2013
+^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic reject-200
