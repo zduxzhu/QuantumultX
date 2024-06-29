@@ -3,7 +3,7 @@
 #!openUrl = https://raw.githubusercontent.com/zduxzhu/QuantumultX/main/baidumap_ad.plugin
 #!author = zduxzhu
 #!homepage = https://github.com/zduxzhu/QuantumultX
-#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Back.png
+#!icon = https://raw.githubusercontent.com/zduxzhu/QuantumultX/main/baidumap.png
 #!date = 2024-06-30 15:40:31
 
 [Mitm]
