@@ -370,9 +370,8 @@ class UserInfo {
             //post方法
             let { result, message } = await this.Request(options);
             //打印领取详情
-            let info = result.description ? result.description : result.name;
-            $.log(`领取第${signInCount}天签到奖励 => 🎉${info}领取成功!`);
-            return info;
+            $.log((result && !message) ? `领取签到奖励 => 🎉${result.description}领取成功!` : `领取签到奖励 => ❌${message}`);
+            return (result && !message) ? result.description : message;
         } catch (e) {
             $.log(`❌领取签到奖励失败！原因为:${e}`)
         }
