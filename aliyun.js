@@ -364,6 +364,7 @@ class UserInfo {
                 headers: {
                     "Content-Type": "application/json",
                     Authorization: this.authorization,
+                    "x-canary": "client=iOS,app=adrive,version=v6.0.0",
                 },
                 body: JSON.stringify({ signInDay: signInCount }),
             };
