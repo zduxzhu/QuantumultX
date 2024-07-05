@@ -360,7 +360,7 @@ class UserInfo {
     async getSignReword(signInCount) {
         try {
             const options = {
-                url: `https://member.alipan.com/v1/activity/sign_in_reward`,
+                url: `https://member.aliyundrive.com/v1/activity/sign_in_reward`,
                 headers: {
                     "Content-Type": "application/json",
                     Authorization: this.authorization,
