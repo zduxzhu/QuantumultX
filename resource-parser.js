@@ -1101,6 +1101,12 @@ function SCP2QX(subs) {
             rw = ptn + " url " + type + js
             nrw.push(rw)
           }
+        } else if (/\s30(7|2)\s/.test(subs[i])) { //rewrite 302&307 复写(Loon)
+          //tpe = subs[i].indexOf(" 302") != -1? "302":"307"
+          //$notify("307/2",subs[i])
+          rw = subs[i].split(" ")[0] + " url " + subs[i].split(" ")[1] + " " + subs[i].split(" ")[2].trim()
+          //if(rw.indexOf("307")!=-1) {$notify("XX",subs[i],rw.split(" "))}
+          nrw.push(rw)
         } else if (/\s30(7|2)$/.test(subs[i])) { //rewrite 302&307 复写(Surge)
           //tpe = subs[i].indexOf(" 302") != -1? "302":"307"
           //$notify("307/2",subs[i])
