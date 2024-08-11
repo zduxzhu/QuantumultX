@@ -5,7 +5,7 @@
 
 
 [rewrite_local]
-^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://github.com/zduxzhu/QuantumultX/raw/main/wyydcdvip.js
+^https:\/\/dict\.youdao\.com\/vip\/user\/status url script-response-body https://raw.githubusercontent.com/zduxzhu/QuantumultX/main/wyydcdvip.js
 # 翻译   广告均由 安妮 分享 
 ^https:\/\/dict\.youdao\.com\/course\/tab\/translateTab url reject-dict
 
