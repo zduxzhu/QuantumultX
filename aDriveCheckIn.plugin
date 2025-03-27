@@ -5,8 +5,13 @@
 #!homepage=https://github.com/zduxzhu/QuantumultX
 #!icon=https://raw.githubusercontent.com/Softlyx/Fileball/main/YUAN/ALiYun.png
 
+[Argument]
+tokenEnable = switch,true,tag=获取Token
+
+[Rule]
 [Script]
 cron "0 10 0 * * ?" script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, timeout=60, enabled=true, tag=阿里云盘签到, img-url=https://raw.githubusercontent.com/lowking/Scripts/master/doc/icon/aliYunPan.png
+http-request ^https:\/\/(auth|aliyundrive)\.alipan\.com\/v2\/account\/token script-path=https://gist.githubusercontent.com/Sliverkiss/33800a98dcd029ba09f8b6fc6f0f5162/raw/aliyun.js, requires-body=true, timeout=10, enabled={tokenEnable}, tag=阿里云盘获取cookie, img-url=https://raw.githubusercontent.com/lowking/Scripts/master/doc/icon/aliYunPan.png
 
 [Mitm]
 hostname = auth.alipan.com,auth.aliyundrive.com
