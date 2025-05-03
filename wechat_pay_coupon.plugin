@@ -1,0 +1,14 @@
+#!name=脚本名称：微信支付有优惠 - 领金币
+#!decs=活动规则：每周累计使用微信支付 10 次可领取 15 金币。
+[Argument]
+getToken = switch,true,tag=账号捕获
+getGold = switch,true,tag=获取金币
+setCron = text,"0 9 * * *",tag=定时参数
+
+[MITM]
+hostname = payapp.weixin.qq.com
+
+[Script]
+http-response https:\/\/payapp\.weixin\.qq\.com\/(coupon-center-user\/home\/login|coupon-center-award\/award\/detail) tag=账号捕获,script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js,requires-body=1,enable={getToken}
+
+cron {setCron} script-path=https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/wechat_pay_coupon.js,tag=获取金币,enable={getGold}
