@@ -1,5 +1,6 @@
 #!name=脚本名称：微信支付有优惠 - 领金币
-#!decs=活动规则：每周累计使用微信支付 10 次可领取 15 金币。
+#!desc=活动规则：每周累计使用微信支付 10 次可领取 15 金币。
+
 [Argument]
 getToken = switch,true,tag=账号捕获
 getGold = switch,true,tag=获取金币
