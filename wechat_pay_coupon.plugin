@@ -3,7 +3,7 @@
 [Argument]
 getToken = switch,true,tag=账号捕获
 getGold = switch,true,tag=获取金币
-setCron = text,"0 9 * * *",tag=定时参数
+setCron = input,"0 9 * * *",tag=定时参数
 
 [MITM]
 hostname = payapp.weixin.qq.com
