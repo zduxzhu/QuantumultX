@@ -1,0 +1,38 @@
+#!name=本地规则
+#!desc=用于修正规则，从Loon，Egern和Surge的本地规则合并而来，同步于:2026年7月27日 05:00
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
+
+[Rule]
+DOMAIN-SUFFIX,wudystar.com,MyProxy
+DOMAIN-SUFFIX,zijieapi.com,DIRECT
+DOMAIN,dig.bdurl.net,DIRECT
+DOMAIN,api.map.baidu.com,DIRECT
+DOMAIN-SUFFIX,zduxzhu.dpdns.org,DIRECT
+DOMAIN-SUFFIX,zduxzhu.pages.dev,DIRECT
+DOMAIN,show.re.taobao.com,DIRECT
+DOMAIN,ccc-x.jd.com,DIRECT
+DOMAIN-SUFFIX,cdn.jsdelivr.net,MyProxy
+DOMAIN-SUFFIX,hitokoto.cn,DIRECT
+DOMAIN-SUFFIX,alipay.hk,DIRECT
+DOMAIN-KEYWORD,webcast,DIRECT
+DOMAIN,k.aliqun.com,DIRECT
+DOMAIN-KEYWORD,mastercard,DIRECT
+DOMAIN-SUFFIX,cnzz.com,DIRECT
+DOMAIN-SUFFIX,snssdk.com,DIRECT
+DOMAIN-KEYWORD,huojian,MyProxy
+DOMAIN-KEYWORD,adguard,MyProxy
+DOMAIN,no9-svip.urlapi-dodo.cyou,MyProxy
+DOMAIN-SUFFIX,bbmhw.com,MyProxy
+DOMAIN-SUFFIX,linux.do,MyProxy
+# 避免迅雷版权问题
+DOMAIN,hub5idx.v6.shub.sandai.net,REJECT
+DOMAIN,hub5emu.v6.shub.sandai.net,REJECT
+DOMAIN,hub5btmain.v6.shub.sandai.net,REJECT
+# 银行
+DOMAIN,msmp.abchina.com.cn,REJECT
+DOMAIN-SUFFIX,95599.cn,DIRECT
+DOMAIN-SUFFIX,abchina.com,DIRECT
+DOMAIN-SUFFIX,bscabank.com,DIRECT
+DOMAIN-SUFFIX,openaboc.cn,DIRECT
+DOMAIN-SUFFIX,openaboc.com,DIRECT
+DOMAIN-SUFFIX,openaboc.com.cn,DIRECT
