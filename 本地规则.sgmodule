@@ -1,8 +1,9 @@
 #!name=本地规则
-#!desc=用于修正规则，从Loon，Egern和Surge的本地规则合并而来，同步于:2026年7月29日 05:00
+#!desc=用于修正规则，从Loon，Egern和Surge的本地规则合并而来，同步于:2026年7月30日 05:00
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
 
 [Rule]
+DOMAIN-SUFFIX,ip.v2too.top,DIRECT
 DOMAIN-SUFFIX,wudystar.com,MyProxy
 DOMAIN-SUFFIX,zijieapi.com,DIRECT
 DOMAIN,dig.bdurl.net,DIRECT
