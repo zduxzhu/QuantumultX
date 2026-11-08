@@ -1,8 +1,9 @@
 #!name=本地规则
-#!desc=用于修正规则，从Loon，Egern和Surge的本地规则合并而来，同步于:2026年11月8日 05:00
+#!desc=用于修正规则，从Loon，Egern和Surge的本地规则合并而来，同步于:2026年11月9日 05:00
 #!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Domestic.png
 
 [Rule]
+DOMAIN,redirect.viglink.com,DIRECT
 DOMAIN-WILDCARD,"*pcdn*.biliapi.net",REJECT
 DOMAIN-SUFFIX,mcdn.bilivideo.cn,REJECT
 DOMAIN-SUFFIX,mcdn.bilivideo.com,REJECT
